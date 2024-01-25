@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=0.75, user-scalable=no">
+    <title>portofolios</title>
+          <link rel="icon" type="image/x-icon" href="/assets/images/square.png">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="https://kit.fontawesome.com/6ce74f56f7.js" crossorigin="anonymous"></script>
+    <link href="https://db.onlinewebfonts.com/c/5dc6fc5a874b27ff1c287c19dc30bf1b?family=Arame-Mono" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/d76d95606b692a112717ea3157846b4a?family=Arame-Thin" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/2f30b2f8799dc0b961ed83f5ac3b0d68?family=Arame-Bold" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+</head>
+<body>
+       <!--------------------------header------------------------------>
+         <header>
+
+            <nav>
+                <img src="assets/images/ligo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contato</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>  
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+          </header>
+     
+ <!--------------------------header------------------------------>
+
+             <div id="corpo"> 
+<p id="tag">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣄⡀⣠⣤⣀⡀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣀⣿⣏⣨⡿⠛⠿⣧⣸⣽⡆⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠛⢿⡿⠛⠛⠀⠀⠀⠀⠀⠛⢛⣿⣤⡀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣄⣀⠀⠀⠀⠀⣾⠸⠀⠀⠀⠀⣀⣠⠄⠀⠀⠀⠀⠀⠀⠀⠘⣿⠿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣏⣘⣧⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢱⣄⠙⢶⣶⣾⣿⣼⣷⣶⣴⠞⢃⡜⠀⠀⠀⠀⠀⠀⠀⣰⠿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡿⠋⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣹⣷⣼⣻⣿⠛⠻⢿⣝⢧⣴⣿⣴⣤⣠⣶⠶⢶⣦⣾⣗⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠿⣿⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣀⣤⣿⣿⣿⣿⣿⣷⣄⣀⣹⣿⣿⣿⣿⣏⡙⠛⠒⠚⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣸⣷⣶⠏⠀⠀⠀⠀
+⠀⠀⠀⠀⠙⠻⠶⣾⣿⣿⣿⣿⣿⣬⣽⣿⣿⣿⣷⠤⠀⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣤⣼⣿⣉⣻⡿⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢻⡿⢟⣻⣿⣿⣿⣿⡿⣿⣿⡟⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⢀⣀⣰⣿⣥⡼⠟⠀⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢠⠋⣡⣾⣿⣿⣿⣻⣿⣿⣧⡈⢹⣄⠀⠀⠀⠀⠀⠈⣦⣙⣟⠻⣭⡿⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠧⠚⠊⠀⠀⠙⡇⢸⠋⠁⠀⠙⠂⠼⠀⠀⠀⠀⠀⢀⣿⡙⠷⣷⢼⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢾⣉⣳⠦⠿⣌⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣰⢞⣵⣾⡟⠁⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⢞⣵⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⢟⣵⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⢿⣽⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⣻⣼⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⢫⣿⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡴⢋⣼⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢳⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</p>
+<div class="container" id="persona"></div>
+
+
+<div class="container" id="square0"><p> push yourself until your nose starts bleeding</p></div>
+<div class="container" id="square1"><p>We are devoted to create<br> the most unique and amazing experience during our time</p></div>
+<div class="container" id="zero"><P>⓪</P></div>
+<div class="container" id="one"><P>①</P></div>
+<div class="container" id="square3"> <p>⬜ Artista/Designer</p></div>
+<div class="container" id="square4"><img src="assets/images/square.png"></div>
+
+
+
+<!----
+             <div class="header-text">
+             <h1 id="contra"><span>Mace</span>,contra tudo <br> acima de todos. </h1>
+             <p>-Designer/Artista-</p>
+             </div> 
+-->
+
+   </div>
+<!----------------------------------------------- corte Section --------------------------------------------------------------->
+             <div class="corte" id="carousel">
+    <div class="scroll">
+      <div class="LeftToRight">
+        <p>&copy;  Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy;Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy; Mace Studios&copy;</p>
+        
+      </div>
+    </div>
+    </div>
+<!----------------------------------------------- corte Section --------------------------------------------------------------->
+ <main>
+ <div class="tudo" id="tudo">
+
+
+<!----------------------------------------------- About Section --------------------------------------------------------------->
+<div id="aboutBackground">
+  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <!-- Coluna 1 - Imagem do Perfil -->
+            <div class="about-col-1">
+
+           <div class="container" id="velho" >
+            <img src="assets/images/spin.gif">
+             
+          
+            </div>
+
+            </div>
+            <!-- Coluna 2 - Texto Sobre Mim -->
+            <div class="about-col-2">
+                <h1 class="sub-tittle">矛盾 Sobre Mim.</h1>
+                <p id="sobre">
+                  <p>Bom dia, Boa tarde ou Boa noite, Meu nome é Adriel Thás, tenho 23 anos, resido atualmente em João Pessoa(PB),
+Com foco especializado em Front-End (JavaScript). Contudo, continuo estudando (Python) para atingir minha meta de ser um desenvolvedor Full Stack. </p>
+<p>Espero uma oportunidade de mostrar minhas capacidades e agregar de forma significativa na sua empresa!</p>
+
+
+
+              
+                <!-- Abas de Skills, Experiência e Educação -->
+                <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills 技.</p>
+                    <p class="tab-links" onclick="opentab('experience')">experiencia 経.</p>
+                    <p class="tab-links" onclick="opentab('education')">educação 教育.</p>
+                </div>
+
+                <!-- Conteúdo das Abas -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Web Designer</li>
+                        <li><span>Desenvolvedor Web</span><br>JavaScript</li>
+                        <li><span>Designer</span><br>Designer Gráfico</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Designer Gráfico</span><br>Mace&copy;</li>
+                        <li><span>Animador/Quadrinista</span><br>Mace&copy;</li>
+                        <li><span>Sua Empresa?</span><br>(Aguardando Oportunidade)</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>JavaScript</span><br>Curso em Video prof (Gustavo Guanabara)</li>
+                        <li><span>Css/HTML</span><br>w3schools</li>
+                        <li><span>Python/React.Js</span><br>(Em Progresso!)</li>
+                       
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="two"><P>②</P></div>
+  <div class="about-services" id="label2"> <p>⬜ Artista/Designer</p></div>
+</div>
+
+ <div class="container" id="bet">
+       <p>space</p> <!-- Conteúdo dentro deste container, se houver -->
+    </div>
+
+
+   
+    <!------------------------------------------------- Services Section ---------------------------------------------------->
+    
+    
+<div id="services">
+   
+    
+     <!-----    <div class="container" id="two"><P>⓪</P></div> -->
+
+    <div class="services-list">
+        
+        <!-- Serviço 1 -->
+        <div class="container" id="teste">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Misturo habilidades de ilutração e conhecimento técnico agregando mais valor visual aos projetos com artes únicas.</p>
+            <a href="#">Saiba Mais</a>
+        </div>
+
+        <!-- Serviço 2 -->
+        <div class="container" id="teste">
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>Analiso os projetos do ponto de vista de um consumidor e tento fazer o visual ser útil, estético e agradável ao usuário.</p>
+            <a href="#">Saiba Mais</a>
+        </div>
+
+        <!-- Serviço 3 -->
+        <div class="container" id="teste">
+            <i class="fa-brands fa-app-store" id="target"></i>
+            <h2>Desenvolvedor Web</h2>
+            <p>Faço uso das infinitas automações do JavaScript para realizar meus sites da forma mais dinamica e simples possivel</p>
+            <a href="#">Saiba Mais</a>
+        </div>
+
+             <div class="container" id="three"><P>③</P></div>
+             <div class="about-services" id="label3"> <p>⬜ Serviços/services</p></div>
+    </div>
+</div>
+
+
+   <!------------------------------------- Portfolio Section ---------------------------------------------------------------->
+   <div id="frame">
+   <div id="portfolio">
+    <div class="container">
+        <div class="work-list">
+
+            <!-- Projeto 1 -->
+            <div class="work">
+                <img src="assets/images/360logo.gif" alt="">
+                <div class="layer">
+                    <h3>JavaScript</h3>
+                    <p>Projeto-Tapas</p>
+                    <a href="tapas/tapas.html"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="work">
+                <img src="assets/images/360logo.gif" alt="">
+                <div class="layer">
+                    <h3>JavaScript</h3>
+                    <p>Projeto-Drum</p>
+                    <a href="drumkit/drum.html"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="work">
+                <img src="assets/images/360logo.gif" alt="">
+                <div class="layer">
+                    <h3>JavaScript</h3>
+                    <p>Projeto-Flap</p>
+                    <a href="cards/cards.html"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+     <a href="#" class="btn">See More</a>
+    <div class="container" id="four"><P>④</P></div>
+             <div class="about-services" id="label4"> <p>⬜ Projetos/Projects</p></div>
+    
+</div>
+</div>
+
+
+</main>
+ <!---------------------------------- Contact Section ------------------------------------------------------------------>
+<div id="contact">
+<footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="assets/images/ligo.png" id="footerlogo">
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/22ratos?igsh=MXYxbWR6eXIwN2dtZA==" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/22ratos" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://wa.me//5583981820819?text=Tenho%20interesse%20em%20saber%20mais%20sobre%20seu%20trabalho." class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+        <ul class="footer-list">
+            <li>
+                <h3>indice</h3>
+            </li>
+
+            <li>
+                <a href="#corpo" class="footer-link">Home</a>
+            </li>
+
+            <li>
+                <a href="#about" class="footer-link">Sobre</a>
+            </li>
+
+            <li>
+                <a href="#services" class="footer-link">Serviços</a>
+            </li>
+
+        </ul>
+        <ul class="footer-list">
+            <li>
+                <h3>Projetos</h3>
+            </li>
+
+            <li>
+                <a href="tapas/tapas.html" class="footer-link">Tapas</a>
+            </li>
+
+            <li>
+                <a href="drumkit/drum.html" class="footer-link">DrumKit</a>
+            </li>
+
+            <li>
+                <a href="cards/cards.html" class="footer-link">Cards</a>
+            </li>
+
+        </ul>
+
+        <div id="footer_subscribe">
+            <h3>Inscreva-se!</h3>
+
+
+            <div id="input_group">
+                <input type="email" id="email">
+                <button id="envelope"> 
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+        
+    </footer>
+     <div id="footer_copyright">
+            
+            Mace&copy; 2023 all rights reserved.
+        </div>
+    </div>
+
+    <div class="float">
+  <a href='https://wa.me//5583981820819?text=Tenho%20interesse%20em%20saber%20mais%20sobre%20seu%20trabalho.'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
+</div>
+
+
+</body>
+<script src="index.js"></script>
+</html>
+
+    <!---------------------------------- Contact Section ------------------------------------------------------------------>
+
